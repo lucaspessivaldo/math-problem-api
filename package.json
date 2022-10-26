@@ -1,14 +1,29 @@
 {
-  "name": "math-generator",
+  "name": "math-problem-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A random math problem generator API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc",
+    "start": "node dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspessivaldo/math-problem-api.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucaspessivaldo/math-problem-api/issues"
+  },
+  "homepage": "https://github.com/lucaspessivaldo/math-problem-api#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.5",
+    "typescript": "^4.8.4"
+  },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.2"
   }
 }
