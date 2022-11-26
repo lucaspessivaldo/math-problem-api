@@ -1,6 +1,18 @@
 # Math Problem API
 
 A random math problem generator API.
+Every request will generate a random response, with one of those operators: addition, subtraction, multiplication, or division.
+
+Response example 
+```json
+{
+  "first_number": 4,
+  "second_number": 1,
+  "operator": "+",
+  "question": "4 + 1",
+  "answer": 5
+}
+```
 
 ### Installation
 
@@ -23,18 +35,3 @@ A random math problem generator API.
    ```sh
    curl http://localhost:5000/api
    ```
-3. Response example
-   ```json
-   {
-     "first_number": 4,
-     "second_number": 1,
-     "operator": "+",
-     "question": "4 + 1",
-     "answer": 5
-   }
-   ```
-
-Every request will generate a random response, with one of those operators:
-addition, subtraction, multiplication, or division.
-
-
