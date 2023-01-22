@@ -1,10 +1,18 @@
 # Math Problem API
 
-A random math problem generator API.
-Every request will generate a random response, with one of those operators: addition, subtraction, multiplication, or division.
+<p>
+  <img alt="" src="https://img.shields.io/badge/NodeJS-black?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img alt="" src="https://img.shields.io/badge/TypeScript-black?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="" src="https://img.shields.io/badge/Express-black?style=flat-square&logo=express&logoColor=white" />
+  <img alt="" src="https://img.shields.io/badge/Licence-MIT-gray?style=flat-squar&labelColor=black" />
+</p>
 
-Response example 
+A random math problem generator API. Every request will generate a random
+response, with one of those operators: addition, subtraction, multiplication, or
+division.
+
 ```json
+//Response example
 {
   "first_number": 4,
   "second_number": 1,
